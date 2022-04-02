@@ -1,18 +1,17 @@
 <template>
   <div class="home">
-    <Factors msg="Welcome to Watch"/>
+    <HelloWorldBoostrap msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-//import HelloWorld from '@/components/HelloWorld.vue'
-import Factors from '@/components/12Factor.vue'
+import HelloWorldBoostrap from '@/components/HelloWorldBoostrap.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Factors
+    HelloWorldBoostrap
   }
 }
 </script>
