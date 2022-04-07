@@ -1,20 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">12因子</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <router-view></router-view>
+  <div class="app_bg">
+      <router-view></router-view>
+  </div>
 </template>
 
 <style lang="scss">
@@ -26,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.app_bg {
+  background-color: #333333;
 }
 
 nav {
