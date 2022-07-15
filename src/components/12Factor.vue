@@ -136,7 +136,7 @@
   <footer>
     <section id="myfooter" class="d-none d-md-block">
       <div class="text-info">轉載</div>
-      <div><a href="http://www.the12factorapp.com/">The12Facter</a></div>
+      <div><a href="https://12factor.net/" target="_blank">The12Facter</a></div>
     </section>
   </footer>
 </div>
